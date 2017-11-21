@@ -1,0 +1,21 @@
+@font-face { font-family: Apercu; src: url('../fonts/Apercu.otf'); }
+@font-face { font-family: Apercu-Light; src: url('../fonts/Apercu-Light.otf'); }
+@font-face { font-family: Apercu-Italic; src: url('../fonts/Apercu-Italic.otf'); }
+
+.search {
+    display: flex;
+}
+
+.search-field {
+    border: none;
+    border-bottom: 1px black solid;
+    flex: 0 1 300px;
+}
+
+.search-field:focus {
+    outline: none;
+}
+
+.search-button {
+    margin-left: 1rem;
+}
